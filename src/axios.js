@@ -1,7 +1,7 @@
 import axios from "axios";
 
 function axiosRequest (query, updateState) {
-  console.log("Hii")
+  updateState([]);
   axios(
     {
       method: 'GET',

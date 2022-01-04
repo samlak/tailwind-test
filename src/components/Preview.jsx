@@ -17,7 +17,7 @@ function Preview ({landscape, alt, photographer, url, setOnPreview}) {
             </div>
             <div className="flex justify-between items-center pt-5">
               <p className="font-bold ">By {photographer}</p>
-              <a href={url} className="bg-blue-600 hover:bg-blue-700 rounded-lg px-4 py-1.5 font-bold text-white" target="_blank" >Download</a>
+              <a href={url} className="bg-blue-600 hover:bg-blue-700 rounded-lg px-4 py-1.5 font-bold text-white" target="_blank" rel="noreferrer" >Download</a>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ function Search ({setImageData}) {
   }
 
   const searchImage = () => {
-    return axiosRequest(searchQuery, () => setImageData().bind());
+    return axiosRequest(searchQuery, setImageData);
   }
 
   return (

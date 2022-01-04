@@ -15,7 +15,7 @@ function ImageBox ({imageData}) {
   return (
     <div className="flex mt-8 mx-8 mb-10 justify-center w-full flex-wrap">
       <div className="flex justify-items-start  w-full flex-wrap">
-        {Array.isArray(imageData) && imageData.length == 0 ? 
+        {Array.isArray(imageData) && imageData.length === 0 ? 
           <SkeletonGroup /> : 
         Array.isArray(imageData) && imageData.length > 0 ?
           (imageData.map(({medium, alt, landscape, photographer, url}) => 

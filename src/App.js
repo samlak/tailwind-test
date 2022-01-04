@@ -9,14 +9,14 @@ function App() {
   const [ imageData, setImageData ] = useState([]);
 
   useEffect(() => {
-    return axiosRequest('laptop', setImageData);
+    return axiosRequest('house', setImageData);
   }, []);
   
   return (
     <div className="bg-blue-50">
       <Header />
-      <Search />
-      <ImageBox imageData={imageData} setImageData={setImageData} />
+      <Search setImageData={setImageData}/>
+      <ImageBox imageData={imageData} />
       <Footer />
     </div>
   )
