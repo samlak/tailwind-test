@@ -7,7 +7,7 @@ function Image ({medium, alt, landscape, photographer, url}) {
 
   return (
     <>
-      <div className="xl:w-1/4 lg:w-1/3 md:w-1/2 sm:w-full p-5 md:h-72 sm:h-96 ">
+      <div className="xl:w-1/4 lg:w-1/3 md:w-1/2 sm:w-full w-full p-5 md:h-72 sm:h-96 h-96">
         <div className="w-full h-full relative">
           <div 
             onMouseEnter={() => setOnHover(true)}
