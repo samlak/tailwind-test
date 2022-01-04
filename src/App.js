@@ -13,7 +13,7 @@ function App() {
   }, []);
   
   return (
-    <div className="bg-blue-50">
+    <div className="bg-blue-50 overflow-hidden">
       <Header />
       <Search setImageData={setImageData}/>
       <ImageBox imageData={imageData} />
